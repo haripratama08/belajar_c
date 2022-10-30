@@ -8,13 +8,11 @@ int main()
     double b = 12;
 
     double hasil;
-    
     hasil = a++;
     // hasil =  a ,  a = a + 1
     
     // hasil = ++a;
     // a = a + 1 , hasil = a 
-    
     printf("Hasil a++ = %.2lf \n",  a);
     
     // hasil = pow(a, b);
