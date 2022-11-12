@@ -2,17 +2,17 @@
 
 // tipe data 
     
-// int  : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10        ||   %d
-// long : int tetapi memiliki memory yang lebih banyak || %l     
+// int  : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10        ||    %d
+// long : int tetapi memiliki memory yang lebih banyak ||  %l  
 
-// double : 3.14, 2.5, 3.19                    ||   %lf    
-// float  : sama seperti double tetapi lebih kecil memory nya     ||  %f 
+// double : 3.14, 2.5, 3.19                    ||    %lf    
+// float  : sama seperti double tetapi lebih kecil memory nya     ||    %f 
     
-    
-// String ===== Char (untuk satu huruf) dan Char[20] (untuk lebih dari satu huruf)    || %c     || %s
+// String ===== Char (untuk satu huruf) dan Char[20] (untuk lebih dari satu huruf)    ||  %c     ||  %s
 // boolean : true dan false (1 atau 0)  || 
     
 void main(){
+    
 // SCAN 
     
 // Memasukan nama
