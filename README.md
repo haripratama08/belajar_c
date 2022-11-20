@@ -10,4 +10,5 @@ Materi pembelajaran bahasa C untuk begineer dan intermediate level
 5. looping.c
 6. array.c
 7. struct.c
+8. function.c
 

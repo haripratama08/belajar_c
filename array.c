@@ -9,6 +9,7 @@ int main()
     c[1] = 2;
     c[2] = 1;
 
+
     //  x[2] = 5; // artinya isi dari array no 2 adalah 5
     //  printf("%d\n", x[2]); // print nilai dari x[2]
     //  printf("%d\n", x[0]);
