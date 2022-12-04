@@ -5,19 +5,20 @@ void main()
     char buff[300];
     FILE *pointer;
 
-    printf("apakah ada file ?\n");
+    printf("apakah ada file ? \n");
 
-    if ((pointer = fopen("percobaan.txt", "r")) == NULL)
-    {
+    if ((pointer = fopen("kuda.txt", "r")) == NULL)
+    {// r untuk read dan w untuk write
         printf("Tidak ada file");
         exit(1);
     }
     else
     {
-        printf("ada file\n");
+        printf("ada file \n");
         while (fgets(buff, sizeof(buff), pointer))
         {
             printf("%s", buff);
         }
     }
+    fclose(pointer);
 }

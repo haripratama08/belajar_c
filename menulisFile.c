@@ -2,7 +2,6 @@
 
 void main()
 {
-    char buff[300];
     char txt[300];
     FILE *pointer;
 
@@ -14,6 +13,6 @@ void main()
         fputs(txt, pointer);
     }
 
-    printf("sudahs selesai ditulis");
+    printf("sudah selesai ditulis");
     fclose(pointer);
 }
